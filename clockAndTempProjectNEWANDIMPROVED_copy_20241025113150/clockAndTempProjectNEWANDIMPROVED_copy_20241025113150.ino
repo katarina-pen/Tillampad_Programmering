@@ -3,7 +3,8 @@
 * Author: Katarina Penava
 * Date: 2024-10-11
 * Description: This project uses a ds3231 to measure time and displays the time to an 1306 oled display,
-* Further, it measures temprature with a analog temprature module and displays a mapped value to a 9g-servo-motor
+* It also measures temperature with an analog temperature module and triggers an alarm using LEDs 
+* when the temperature exceeds a user-defined threshold set by a potentiometer.
 */
 
 // Include Libraries
